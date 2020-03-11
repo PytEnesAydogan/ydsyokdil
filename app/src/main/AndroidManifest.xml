@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="windows-1254"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ydsyokdil">
+<uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+
+
+        android:allowBackup="true"
+        android:icon="@drawable/crosswordb"
+        android:label="Türkçe İngilizce Çengel Bulmaca"
+        android:roundIcon="@drawable/crosswordb"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+
+        <activity android:name=".ortaKelimeler$orta10Kelimeler" />
+        <activity android:name=".ortaKelimeler$orta9Kelimeler" />
+        <activity android:name=".ortaKelimeler$orta8Kelimeler" />
+        <activity android:name=".ortaKelimeler$orta7Kelimeler" />
+        <activity android:name=".ortaKelimeler$orta6Kelimeler" />
+        <activity android:name=".ortaKelimeler$orta5Kelimeler" />
+        <activity android:name=".ortaKelimeler$orta4Kelimeler" />
+        <activity android:name=".ortaKelimeler$orta3Kelimeler" />
+        <activity android:name=".ortaKelimeler$orta2Kelimeler" />
+        <activity android:name=".ortaKelimeler" />
+        <activity android:name=".Orta$Orta10" android:screenOrientation="portrait"/>
+        <activity android:name=".Orta$Orta9" android:screenOrientation="portrait"/>
+        <activity android:name=".Orta$Orta8" android:screenOrientation="portrait"/>
+        <activity android:name=".Orta$Orta7" android:screenOrientation="portrait"/>
+        <activity android:name=".Orta$Orta6" android:screenOrientation="portrait"/>
+        <activity android:name=".Orta$Orta5" android:screenOrientation="portrait"/>
+        <activity android:name=".Orta$Orta4" android:screenOrientation="portrait"/>
+        <activity android:name=".Orta$Orta3" android:screenOrientation="portrait"/>
+        <activity android:name=".Orta$Orta2" android:screenOrientation="portrait"/>
+        <activity android:name=".Orta" android:screenOrientation="portrait"/>
+        <activity android:name=".LevelSecOrta" android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".LevelSecZor" android:screenOrientation="portrait"/>
+        <activity android:name=".Zor$Zor10" android:screenOrientation="portrait"/>
+        <activity android:name=".Zor$Zor9" android:screenOrientation="portrait"/>
+        <activity android:name=".Zor$Zor8" android:screenOrientation="portrait"/>
+        <activity android:name=".Zor$Zor7" android:screenOrientation="portrait"/>
+        <activity android:name=".Zor$Zor6" android:screenOrientation="portrait"/>
+        <activity android:name=".Zor$Zor5" android:screenOrientation="portrait"/>
+        <activity android:name=".Zor$Zor4" android:screenOrientation="portrait"/>
+        <activity android:name=".Zor$Zor3" android:screenOrientation="portrait"/>
+        <activity android:name=".Zor$Zor2" android:screenOrientation="portrait"/>
+        <activity android:name=".Zor" android:screenOrientation="portrait"/>
+        <activity android:name=".zorKelimeler" />
+        <activity android:name=".zorKelimeler$zor10Kelimeler" />
+        <activity android:name=".zorKelimeler$zor9Kelimeler" />
+        <activity android:name=".zorKelimeler$zor8Kelimeler" />
+        <activity android:name=".zorKelimeler$zor7Kelimeler" />
+        <activity android:name=".zorKelimeler$zor6Kelimeler" />
+        <activity android:name=".zorKelimeler$zor5Kelimeler" />
+        <activity android:name=".zorKelimeler$zor4Kelimeler" />
+        <activity android:name=".zorKelimeler$zor3Kelimeler" />
+        <activity android:name=".zorKelimeler$zor2Kelimeler" />
+
+
+
+        <activity android:name=".kolayKelimeler"/>
+        <activity android:name=".kolayKelimeler$kolay2Kelimeler" />
+        <activity android:name=".kolayKelimeler$kolay3Kelimeler" />
+        <activity android:name=".kolayKelimeler$kolay4Kelimeler" />
+        <activity android:name=".kolayKelimeler$kolay5Kelimeler" />
+        <activity android:name=".kolayKelimeler$kolay6Kelimeler" />
+        <activity android:name=".kolayKelimeler$kolay7Kelimeler" />
+        <activity android:name=".kolayKelimeler$kolay8Kelimeler" />
+        <activity android:name=".kolayKelimeler$kolay9Kelimeler" />
+        <activity android:name=".kolayKelimeler$kolay10Kelimeler" />
+        <activity android:name=".Kolay$Kolay10" android:screenOrientation="portrait"/>
+        <activity android:name=".Kolay$Kolay9" android:screenOrientation="portrait"/>
+        <activity android:name=".Kolay$Kolay8" android:screenOrientation="portrait" />
+        <activity android:name=".Kolay$Kolay7" android:screenOrientation="portrait"/>
+        <activity android:name=".Kolay$Kolay6" android:screenOrientation="portrait"/>
+        <activity android:name=".Kolay$Kolay5" android:screenOrientation="portrait"/>
+        <activity android:name=".Kolay$Kolay4" android:screenOrientation="portrait"/>
+        <activity android:name=".Kolay$Kolay3" android:screenOrientation="portrait"/>
+        <activity android:name=".Kolay$Kolay2" android:screenOrientation="portrait" />
+        <activity android:name=".Kolay" android:screenOrientation="portrait" />
+        <activity android:name=".LevelSecKolay" android:screenOrientation="portrait" />
+
+
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

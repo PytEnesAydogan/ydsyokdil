@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="beyaz">#FFFFFF</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lightyellow">#FFFFE0</color>
+    <color name="powderblue">#B0E0E6</color>
+    <color name="siyah">#000000</color>
+    <color name="blue1">#4169e1</color>
+    <color name="blue2">#4876ff</color>
+    <color name="blue3">#436eee</color>
+    <color name="blue4">#3a5fcd</color>
+    <color name="blue5">#27408b</color>
+    <color name="yesil1">#7fff00</color>
+    <color name="yesil4">#76ee00</color>
+    <color name="yesil5">#66cd00</color>
+    <color name="yesil2">#82FF00</color>
+    <color name="yesil3">#7cfc00</color>
+    <color name="deve1">#ffe1ff</color>
+    <color name="deve2">#eed2ee</color>
+    <color name="deve3">#d8bfd8</color>
+    <color name="deve4">#cdb5cd</color>
+    <color name="deve5">#8b7b8b</color>
+    <color name="blue6">#6D8EF8</color>
+    <color name="kirmizi">#DD574B</color>
+    <color name="askeri">#8DA552</color>
+    <color name="lila">#79769D</color>
+    <color name="pembe">#CB5A7C</color>
+    <color name="lacivert">#2E3E4F</color>
+    <color name="dodger1">#104e8b</color>
+    <color name="slate">#8b658b</color>
+    <color name="darkorange">#ff7f00</color>
+    <color name="darkgreen">#006400</color>
+    <color name="Sarı">#ffe413</color>
+   <color name="opaksiyah">#80000000</color>
+    <color name="orta">#8b0a50</color>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgreen"
+    tools:context=".LevelSecZor">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="57dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="2"
+        android:background="@color/blue2"
+        android:onClick="onClicked14"
+        android:text="Level 1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView2">
+
+    </Button>
+
+    <Button
+        android:id="@+id/lv2"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="57dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="2"
+        android:background="@color/blue2"
+        android:onClick="onClicked15"
+        android:text="Level 2"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv1">
+
+    </Button>
+
+    <Button
+        android:id="@+id/lv3"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="57dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="2"
+        android:background="@color/blue3"
+        android:onClick="onClicked16"
+        android:text="Level 3"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv2">
+
+    </Button>
+
+    <Button
+        android:id="@+id/lv4"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="57dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="2"
+        android:background="@color/blue3"
+        android:onClick="onClicked17"
+        android:text="Level 4"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv3" />
+
+    <Button
+        android:id="@+id/lv5"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="57dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="2"
+        android:background="@color/blue1"
+        android:onClick="onClicked18"
+        android:text="Level 5"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv4" />
+
+    <Button
+        android:id="@+id/lv6"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="57dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="2"
+        android:background="@color/blue1"
+        android:onClick="onClicked19"
+        android:text="Level 6"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv5">
+
+    </Button>
+
+    <Button
+        android:id="@+id/lv7"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="57dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="2"
+        android:background="@color/blue4"
+        android:onClick="onClicked20"
+        android:text="Level 7"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv6">
+
+    </Button>
+
+    <Button
+        android:id="@+id/lv8"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="57dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="2"
+        android:background="@color/blue4"
+        android:onClick="onClicked21"
+        android:text="Level 8"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv7">
+
+    </Button>
+
+    <Button
+        android:id="@+id/lv9"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="57dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="2"
+        android:background="@color/blue5"
+        android:onClick="onClicked22"
+        android:text="Level 9"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv8">
+
+    </Button>
+
+    <Button
+        android:id="@+id/lv10"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:textSize="15dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="2"
+        android:background="@color/blue5"
+        android:onClick="onClicked23"
+        android:text="Level 10"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lv9">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
